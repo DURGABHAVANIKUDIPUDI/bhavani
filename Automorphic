@@ -1,0 +1,19 @@
+class automorphic
+{
+    public static void main(String[] args) 
+    {
+        int n=25,sq,n1,r,k=0;
+        sq=n*n;n1=n;
+        While(n!=0)
+        {
+            r=n/10;
+            k++;
+        }
+        if((sq%(Math.pow(10,k)))==n1)
+        {
+        System.out.println("Automorphic number");
+        }
+        else
+        System.out.println("not Automorphic number");
+    }
+}
